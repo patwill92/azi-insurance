@@ -1,0 +1,89 @@
+.component {
+  background-color: transparent;
+  height: 1000px;
+}
+
+/* HEADER LAYOUT______________________________________________________________________________________________________________________________________________ */
+#azimut-logo {
+  height: 100px;
+}
+
+#header-1 {
+  height: 120px;
+  background-color: transparent;
+}
+
+.nav-item {
+  color: white;
+}
+
+/* HOME PAGE______________________________________________________________________________________________________________________________________________ */
+#insurance-carousel {
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: grey;
+  background-color: rgba(185, 185, 185, 0.8);
+}
+
+#insurance-carousel img {
+  height: 60px;
+  float: none;
+  margin: 0 auto;
+}
+
+#quote {
+  border-radius: 5px;
+  background-color: rgba(185, 185, 185, 0.8);
+}
+
+/* ABOUT PAGE______________________________________________________________________________________________________________________________________________ */
+#about-row {
+  /*background-color: white;*/
+}
+
+.about-item {
+  border-radius: 5px;
+  background-color: grey;
+  background-color: rgba(185, 185, 185, 0.7);
+  background-size: 100%;
+}
+
+#about1 {
+  /*background-image: url("https://static.pexels.com/photos/389818/pexels-photo-389818.jpeg");*/
+}
+
+#about2 {
+  /*background-image: url("https://static.pexels.com/photos/530024/pexels-photo-530024.jpeg");*/
+}
+
+#about3 {
+  /*background-image: url("https://static.pexels.com/photos/97079/pexels-photo-97079.jpeg");*/
+}
+
+/* CONTACT PAGE______________________________________________________________________________________________________________________________________________ */
+#contact-form {
+  border-radius: 5px;
+  height: 450px;
+  margin: 0 -20px;
+  padding: 40px;
+  /*width: 400px;*/
+  background-color: grey;
+  background-color: rgba(185, 185, 185, 0.7);
+}
+
+#message-input {
+  height: 150px;
+}
+
+.form-control {
+  color: rgb(179, 181, 183);
+}
+
+
+/* FOOTER LAYOUT____________________________________________________________________________________________________________________________________________ */
+#footer-layout {
+  height: 100px;
+  background-color: lightgrey;
+  border-top: solid 1px grey;
+}
