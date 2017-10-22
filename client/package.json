@@ -1,0 +1,31 @@
+{
+  "name": "Azi-Client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": {
+    "/api/*": {
+      "target": "http://localhost:5000"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "classnames": "^2.2.5",
+    "jquery": "^3.2.1",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-google-maps": "^9.0.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-form": "^7.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
