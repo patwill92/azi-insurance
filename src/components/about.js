@@ -3,22 +3,44 @@ import React, {Component} from 'react';
 class About extends Component {
   render() {
     return (
-        <div id="about-component" className="container-fluid component">
-          <h1 className="py-5">About Us</h1>
-          <div id="about-row" className="row py-5">
-            <div id="about1" className="col text-center about-item py-4 mr-5">
-              <h6>Family Matters</h6>
-              A family owned business that will work with you to find you the best insurance coverage.
-              Azimut Insurance Consultants will strive to create a relationship with their clients.
+        <div id="about-component" className="component">
+
+          {/* HEADER-1 */}
+          <h1 id="a-header-1" className="container py-3">About Us</h1>
+
+          {/* PANEL 1 */}
+          <div id="a-panel-1" className="panel p-5 row align-items-center">
+            <div className="col h-100 w-100">
+              <div id="a-panel-1-img"></div>
             </div>
-            <div id="about2" className="col text-center about-item py-4 mr-5">
-              <h6>Did You Know?</h6>
-              Azimut Insurance Consultants work with leading insurance carriers to guarantee that you are receiving the coverage needed at the best price.
+            <div className="col text-align-center">
+              <h4>Family Matters</h4>
+              <h6 className="p-5">A family owned business that will work with you to find you the best insurance coverage.
+              Azimut Insurance Consultants will strive to create a relationship with their clients.</h6>
             </div>
-            <div id="about3" className="col text-center about-item py-4">
-              <h6>Close The Deal</h6>
-              New to business and filled with excitement,
-              we ensure you Azimut Inusrance Consultants will work to find you the best policies to cover your assets
+          </div>
+
+          {/* PANEL-2 */}
+          <div id="a-panel-2" className="panel p-5 row align-items-center">
+            <div className="col text-align-center">
+              <h4>Did You Know?</h4>
+              <h6 className="p-5">Azimut Insurance Consultants work with leading insurance carriers to guarantee that
+              you are receiving the coverage needed at the best price.</h6>
+            </div>
+            <div className="col h-100 w-100">
+              <div id="a-panel-2-img"></div>
+            </div>
+          </div>
+
+          {/* PANEL-3 */}
+          <div id="a-panel-3" className="panel p-5 row align-items-center">
+            <div className="col h-100 w-100">
+              <div id="a-panel-3-img"></div>
+            </div>
+            <div className="col text-align-center">
+              <h4>Close The Deal</h4>
+              <h6 className="p-5">New to business and filled with excitement,
+              we ensure you Azimut Inusrance Consultants will work to find you the best policies to cover your assets</h6>
             </div>
           </div>
         </div>
