@@ -12,10 +12,16 @@ h1 {
   background-color: white;
 }
 
+.panel-insurance {
+  height: 600px;
+  background-color: white;
+}
+
 .text-align-center {
   text-align: center;
 }
-/* HEADER LAYOUT______________________________________________________________________________________________________________________________________________ */
+
+/* HEADER LAYOUT____________________________________________________________________________________________________________________________________________ */
 #azimut-logo {
   height: 100px;
 }
@@ -25,18 +31,34 @@ h1 {
   background-color: rgba(66, 85, 137, 0.6);
 }
 
-#nav-header-links a {
+.nav-link {
   color: white;
+}
+
+#nav-header-links a:hover {
+  color: red;
 }
 
 .dropdown-menu {
   margin-top: 10px;
-  background-color: transparent;
-  /*background-color: rgba(66, 85, 137, 0.6);*/
-  border: 1px solid white;
 }
 
-/* HOME PAGE______________________________________________________________________________________________________________________________________________ */
+.dropdown-item {
+  color: white;
+}
+
+#ddlButton:focus, .btn:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* HOME PAGE__________+++___________________________________________________________________________________________________________________________________ */
+/*.repeating-linear {*/
+/*  color: pink;*/
+/*  border: 10px solid pink;*/
+/*  border-image: repeating-linear-gradient(45deg, red, white, red);*/
+/*}*/
+
 #h-panel-1, #h-panel-2 {
   border-top: 5px solid red;
 }
@@ -69,7 +91,7 @@ h1 {
     background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
 
-/* ABOUT PAGE______________________________________________________________________________________________________________________________________________ */
+/* ABOUT PAGE_______________________________________________________________________________________________________________________________________________ */
 #a-panel-1, #a-panel-3{
   border-top: 5px solid red;
 }
@@ -89,7 +111,6 @@ h1 {
 
 #a-panel-2-img {
   height: 100%;
-  border: none;
   background-image: url("https://static.pexels.com/photos/164592/pexels-photo-164592.jpeg");
   background-size: contain;
   background-position: center;
@@ -104,7 +125,7 @@ h1 {
   background-repeat: no-repeat;
 }
 
-/* CONTACT PAGE______________________________________________________________________________________________________________________________________________ */
+/* CONTACT PAGE_____________________________________________________________________________________________________________________________________________ */
 #c-panel-1 {
   border-top: 5px solid red;
 }
@@ -136,4 +157,31 @@ h1 {
   height: 100px;
   background-color: lightgrey;
   border-top: solid 1px grey;
+}
+
+
+/* CAR INSURANCE PAGE_______________________________________________________________________________________________________________________________________ */
+#car-panel-1 {
+  border-top: 5px solid red;
+}
+
+#car-panel-1-img {
+  height: 100%;
+  background-image: url("https://static.pexels.com/photos/164634/pexels-photo-164634.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* BOAT INSURANCE PAGE______________________________________________________________________________________________________________________________________ */
+#boat-panel-1 {
+  border-top: 5px solid red;
+}
+
+#boat-panel-1-img {
+  height: 100%;
+  background-image: url("https://static.pexels.com/photos/625418/pexels-photo-625418.jpeg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
 }

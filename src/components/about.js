@@ -14,7 +14,7 @@ class About extends Component {
               <div id="a-panel-1-img"></div>
             </div>
             <div className="col text-align-center">
-              <h4>Family Matters</h4>
+              <h4 >Family Matters</h4>
               <h6 className="p-5">A family owned business that will work with you to find you the best insurance coverage.
               Azimut Insurance Consultants will strive to create a relationship with their clients.</h6>
             </div>

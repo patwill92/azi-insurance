@@ -4,17 +4,34 @@ class Boat extends Component {
   render() {
     return (
         <div id="boat-insurance-component">
-            <h1 className="py-5">Boat Insurance</h1>
-            <div className="mx-5 p-2" style={{backgroundColor: '#cccccc', borderRadius: '5px', height: '300px'}}>
-              <h4>Have us protect your boat so you can focus on spending a great day with your friends and family</h4>
-              <div className="py-3">
-                Facts you need to know about boat insurance:
-                <ul style={{marginLeft: '-22px', marginTop: '10px'}}>
-                  <li className="py-2">Boat policy covers you for liability if someone is injured on your watercraft</li>
-                  <li className="py-2">Your boat policy gives you the choice between cash value (agreed value) or replacement cost in case of a total loss</li>
-                </ul>
+
+            {/* HEADER-1 */}
+            <h1 id="boat-header-1" className="container py-3">Boat Insurance</h1>
+
+            {/* PANEL-1 */}
+            <div id="boat-panel-1" className="panel-insurance p-5">
+              <div className="row">
+                <div className="col">
+                  <h4 className="pb-3">Have us protect your boat</h4>
+                  <h6>Focus on spending a great day with your friends and family</h6>
+                </div>
+              </div>
+
+              <div className="row align-items-start pt-5" style={{height: '400px'}}>
+                <div className="col">
+                  Facts you need to know about boat insurance:
+                  <ul style={{marginLeft: '-22px', marginTop: '10px'}}>
+                    <li className="py-2">Boat policy covers you for liability if someone is injured on your watercraft</li>
+                    <li className="py-2">Your boat policy gives you the choice between cash value (agreed value) or replacement cost in case of a total loss</li>
+                  </ul>
+                </div>
+
+                <div className="col h-100 w-100">
+                  <div id="boat-panel-1-img"></div>
+                </div>
               </div>
             </div>
+
         </div>
 
     );
