@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 class Header extends Component {
   render() {
     return (
-      <div id="nav-header-layout" className="sticky-top">
+      <div id="nav-header-layout" className="">
 
         {/* NAV BAR */}
         <nav id="nav-header-1" className="navbar navbar-expand-md justify-content-between container">
@@ -22,10 +22,10 @@ class Header extends Component {
                   Insurance
                 </a>
                 <div className="dropdown-menu dropdown-menu-right bg-danger" aria-labelledby="ddlButton">
-                  <Link className="dropdown-item" to="/car">Car</Link>
-                  <Link className="dropdown-item" to="/boat">Boat</Link>
-                  <Link className="dropdown-item" to="/house">House</Link>
-                  <Link className="dropdown-item" to="/life">Life</Link>
+                  <Link className="dropdown-item" to="/car"><span style={{marginRight: '10px'}}><i className="fa fa-car"></i></span>Car</Link>
+                  <Link className="dropdown-item" to="/boat"><span style={{marginRight: '10px'}}><i className="fa fa-ship"></i></span>Boat</Link>
+                  <Link className="dropdown-item" to="/house"><span style={{marginRight: '9px'}}><i className="fa fa-lg fa-home"></i></span>House</Link>
+                  {/*<Link className="dropdown-item" to="/life"><span style={{marginRight: '12px'}}><i className="fa fa-heartbeat"></i></span>Life</Link>*/}
                 </div>
               </div>
 

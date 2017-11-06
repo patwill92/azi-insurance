@@ -22,7 +22,7 @@ class App extends Component {
             <Route path="/car" component={Car} />
             <Route path="/boat" component={Boat} />
             <Route path="/house" component={House} />
-            <Route path="/life" component={Life} />
+            {/*<Route path="/life" component={Life} />*/}
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/location" component={Location} />

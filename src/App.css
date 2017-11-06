@@ -185,3 +185,24 @@ h1 {
   background-position: top;
   background-repeat: no-repeat;
 }
+
+/* HOUSE INSURANCE PAGE______________________________________________________________________________________________________________________________________ */
+#house-panel-1 {
+  border-top: 5px solid red;
+}
+
+#house-panel-1-img {
+  height: 100%;
+  background-image: url("https://static.pexels.com/photos/238385/pexels-photo-238385.jpeg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  /*https://static.pexels.com/photos/259820/pexels-photo-259820.jpeg*/
+  /*https://static.pexels.com/photos/323776/pexels-photo-323776.jpeg*/
+  /*https://static.pexels.com/photos/286744/pexels-photo-286744.jpeg*/
+  /*https://static.pexels.com/photos/276677/pexels-photo-276677.jpeg*/
+  /*https://static.pexels.com/photos/259646/pexels-photo-259646.jpeg*/
+  /*https://static.pexels.com/photos/323781/pexels-photo-323781.jpeg*/
+  /*https://static.pexels.com/photos/323774/pexels-photo-323774.jpeg*/
+}
